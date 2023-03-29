@@ -1,11 +1,11 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { ToastContainer, toast } from "react-toastify";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import SideCart from "./components/SideCart/SideCart";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [watch, setWatch] = useState("");
@@ -33,6 +33,7 @@ function App() {
           <SideCart setwatch={watch}></SideCart>
         </div>
       </div>
+      <ToastContainer></ToastContainer>
     </div>
   );
 }
