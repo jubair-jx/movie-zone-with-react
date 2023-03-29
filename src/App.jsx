@@ -21,11 +21,11 @@ function App() {
       setWatch(watch);
     }
   };
-  const handleBtnRatingCart = () => {};
+
   return (
     <div className="App">
       <Header></Header>
-      <div className="row container mx-5 mt-5">
+      <div className="row mx-auto container mt-5">
         <div className="col-md-8">
           <Home handlebtn={handleBtnWatchCart}></Home>
         </div>
