@@ -14,7 +14,7 @@ const ShowCart = (props) => {
           src={poster}
           className="card-img-top "
           alt="..."
-          style={{ height: "450px" }}
+          style={{ height: "400px" }}
         />
         <div className="card-body">
           <h5 className="card-title">{movieName}</h5>
